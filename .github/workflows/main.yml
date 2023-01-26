@@ -15,3 +15,5 @@ jobs:
       - name: Run API tests
         run: |
           postman collection run "23706198-7bdc887c-32f0-4179-aa7a-9c6180bab7b8" -e "23706198-005e6316-fa5b-42d1-800d-1813b4955028"
+      - name: End Test
+        run: echo "Test ending..."
